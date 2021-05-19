@@ -1,0 +1,211 @@
+/* font integration */
+@font-face {
+  src: url(../fonts/PTSans-Bold.ttf);
+  font-family: PTSans-Bold;
+}
+@font-face {
+  src: url(../fonts/PTSans-Regular.ttf);
+  font-family: PTSans-Regular;
+}
+/*--===== Common part starts =====---*/
+body{
+  font-family: PTSans-Regular;
+  font-weight: 400;
+  color: #555555 !important;
+}
+/*--===== Common part ends =====---*/
+
+/*--===== Header starts =====---*/
+header{
+  padding: 10px 0;
+  background-color: #fcdb00;
+}
+.menu{
+  padding: 0 !important;
+}
+header li{
+  margin-right: 82px;
+}
+header li:last-child{
+  margin-right: 0;
+}
+header li a{
+  font-family: PTSans-Bold;
+  font-size: 20px;
+  font-weight: 700;
+  color: #010101 !important;
+}
+header li a:hover{
+  color: #555555 !important;
+}
+/*--===== Header ends =====---*/
+
+/*--===== Banner starts =====---*/
+.banner{
+  padding: 38px 0 120px;
+  background-color: #fcdb00;
+}
+.car_indicator{
+  bottom: -21%;
+}
+.car_indicator [data-bs-target]{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.banner_text{
+  margin-top: 50px;
+}
+.banner h1{
+  font-family: PTSans-Bold;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101 !important;
+}
+.banner h5{
+  margin: 15px 0;
+  width: 88%;
+  font-family: PTSans-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
+  word-spacing: 1px;
+}
+.banner p{
+  padding-bottom: 20px;
+  width: 87%;
+  font-size: 16px;
+}
+.banner ul li{
+  margin-right: 35px !important;
+}
+.banner ul li:last-child{
+  margin-right: 0 !important;
+}
+/*--===== Banner ends =====---*/
+
+/*--===== Features start =====---*/
+.c_padding{
+  padding: 80px 0 120px;
+}
+.f_h1{
+  font-family: PTSans-Bold;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101 !important;
+}
+.f_p{
+  font-family: PTSans-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
+  line-height: 26px;
+  word-spacing: 1px;
+}
+.feature .f_description .single_item{
+  margin-top: 82px;
+}
+.feature .f_description .si_icon i{
+  margin-top: 4px;
+  font-size: 47px;
+  color: #010101;
+}
+.feature .f_description h2{
+  font-family: PTSans-Regular;
+  font-size: 22px;
+  font-weight: 400;
+  color: #010101;
+}
+.feature .f_description p{
+  font-size: 16px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+/*--===== Features ends =====---*/
+
+/*--===== Contact start =====---*/
+.contact{
+  background-color: #232527;
+}
+.contact h1{
+  color: #fcdb00 !important;
+}
+.contact p{
+  color: #898989 !important;
+}
+.contact .row_two{
+  margin: 45px 0 75px;
+}
+.contact .sub_email{
+  width: 100%;
+  height: 50px;
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+.contact .sub_email::placeholder{
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+.contact .sub_email:focus{
+  border-color: #fcdb00;
+  box-shadow: 0 0 0 0.5px rgb(252, 219, 0);
+}
+.contact .sub_button{
+  width: 100%;
+  height: 50px;
+  background-color: #fcdb00;
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 700;
+  color: #010101;
+  text-transform: uppercase;
+  transition: 0.7s;
+}
+.contact .sub_button:hover{
+  background-color: transparent;
+  border: 1px solid #fcdb00;
+  color: #fff;
+}
+.social_icon ul li a i{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: #fcdb00;
+  font-size: 30px;
+  color: #010101;
+  transition: 0.7s;
+}
+.social_icon ul li a i:hover{
+  background-color: transparent;
+  color: #fff;
+}
+/*--===== Contact ends =====---*/
+
+/*--===== Footer start =====---*/
+footer{
+  background-color: #232527;
+}
+address{
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+footer a{
+  text-decoration: none;
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  transition: 0.7s;
+}
+footer a:hover{
+  color: #fcdb00;
+}
+/*--===== Footer ends =====---*/

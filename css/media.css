@@ -1,0 +1,205 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /*--===== Header starts =====---*/
+    header li {
+        margin-right: 0;
+        text-align: end;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /*--===== Header ends =====---*/
+    /*--===== Banner starts =====---*/
+    .banner{
+        padding-bottom: 82px;
+    }
+    .banner_text {
+        margin-top: 8px;
+    }
+    .car_indicator {
+        bottom: -18%;
+    }
+    .banner h1 {
+        font-size: 28px;
+    }
+    .banner h5 {
+        width: 100%;
+    }
+    .banner p {
+        width: 100%;
+    }
+    /*--===== Banner ends =====---*/
+
+    /*--===== Features start =====---*/
+    .c_padding {
+        padding: 40px 0 45px;
+    }
+    .feature .f_description .single_item {
+        margin-top: 40px;
+    }
+    .f_h1 {
+        font-size: 28px;
+    }
+    .f_p {
+        font-size: 18px;
+    }
+    .feature .f_description .si_text {
+        text-align: center;
+    }
+    .feature .f_description .si_icon i {
+        margin-bottom: 15px;
+    }
+    /*--===== Features ends =====---*/
+
+    /*--===== Contact start =====---*/
+    .contact .row_two {
+        margin: 45px 0 45px;
+    }
+    .contact .sub_email {
+        height: 40px;
+    }
+    .contact .btn_col{
+        padding: 0;
+    }
+    .contact .sub_button {
+        padding: 0;
+        height: 40px;
+        font-size: 14px;
+    }
+    .social_icon ul li a i {
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+    }
+    /*--===== Contact ends =====---*/
+
+    /*--===== Footer start =====---*/
+    .f_1{
+        text-align: center;
+    }
+    .f_link{
+        margin-left: 14px;
+        padding: 0;
+    }
+    /*--===== Footer end =====---*/
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*--===== Header starts =====---*/
+    header li {
+        margin-right: 0;
+        text-align: end;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /*--===== Header ends =====---*/
+
+    /*--===== Banner starts =====---*/
+    .car_indicator {
+        bottom: -10%;
+    }
+    .banner h5 {
+        width: 100%;
+    }
+    .banner p {
+        width: 100%;
+    }
+    /*--===== Banner ends =====---*/
+
+    /*--===== Features start =====---*/
+    .c_padding {
+        padding: 40px 0 45px;
+    }
+    .feature .f_description .single_item {
+        margin-top: 40px;
+    }
+    .feature .f_description .si_text {
+        text-align: center;
+    }
+    .feature .f_description .si_icon i {
+        margin-bottom: 15px;
+    }
+    /*--===== Features ends =====---*/
+
+    /*--===== Contact start =====---*/
+    .contact .row_two {
+        margin: 45px 0 45px;
+    }
+    /*--===== Contact ends =====---*/
+
+    /*--===== Footer start =====---*/
+    .f_link{
+        padding-left: 22px;
+      }
+    /*--===== Footer end =====---*/
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*--===== Header starts =====---*/
+    header li {
+        margin-right: 0;
+        text-align: end;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    /*--===== Header ends =====---*/
+
+    /*--===== Banner starts =====---*/
+    .banner_img {
+        text-align: end !important;
+    }
+    .banner h5 {
+        width: 100%;
+    }
+    .banner p {
+        padding-bottom: 20px;
+        width: 100%;
+        font-size: 16px;
+    }
+    /*--===== Banner ends =====---*/
+
+    /*--===== Features start =====---*/
+    .c_padding {
+        padding: 40px 0 55px;
+    }
+    /*--===== Features ends =====---*/
+
+    /*--===== Contact start =====---*/
+    .contact .row_two {
+        margin: 45px 0 50px;
+    }
+    /*--===== Contact ends =====---*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*--===== Header starts =====---*/
+    header li {
+        margin-right: 65px;
+    }
+    /*--===== Header ends =====---*/
+
+    /*--===== Contact start =====---*/
+    .c_padding{
+        padding: 60px 0 65px; 
+    }
+    /*--===== Contact ends =====---*/
+}
+
+/* Extra Large devices (Extra Large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    /*--===== Header starts =====---*/
+    header li {
+        margin-right: 101px;
+    }
+    /*--===== Header ends =====---*/
+}
